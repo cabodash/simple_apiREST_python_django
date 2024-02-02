@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Episodes</title>
+</head>
+<body>
+{% for episode in episodes %}
+    <div class="serie__container">
+        <span>{{ episode.name }}</span>
+        <span>{{ episode.number }}</span>
+    </div>
+{% endfor %}
+
+</body>
+</html>
